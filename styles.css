@@ -367,7 +367,7 @@ select{
     flex-wrap: wrap;
     flex-direction: row;
   }
-  .form__rows {
+  .form__rows2 {
     width: 40%;
     gap: 0;
   }

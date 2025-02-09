@@ -4,63 +4,6 @@
   box-sizing: border-box;
 }
 
-/*############################### html profesor ###############################*/ /*
-<!DOCTYPE html>
-
-<html lang="en">
-
-<head>
-
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="stylesheet" href="style.css">
-
-<title>Giacomo Genito - Desarrollador Web</title>
-
-</head>
-
-<body>
-
-<header class="header">
-
-<input type="checkbox" id="open-menu" class="header__checkbox">
-
-<label for="open-menu" class="header__open-nav-button" role="button">=</label>
-
-<div class="header__logo-container">
-
-<img src="logo.svg" alt="Giacomo Genito" class="header__logo">
-
-</div>
-
-<nav class="header__nav">
-
-<ul class="header__nav-list">
-
-<li class="header__nav-item"><a href="">PROFILE</a></li>
-
-<li class="header__nav-item"><a href="">PORTFOLIO</a></li>
-
-<li class="header__nav-item"><a href="">CONTACT</a></li>
-
-</ul>
-
-</nav>
-
-</header>
-
-</body>
-
-</html>
-
-
-
-
-
-/*############################### estilos profesor ###############################*/
-
 /*
 
 Color Ppal: #4488ee

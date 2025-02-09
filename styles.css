@@ -349,3 +349,74 @@ h1 {
   }
 }
 /* ---- PORTFOLIO END ----*/
+/* ---- FORM SECTION ----*/
+.section__form-wrapper{
+  padding: 25px;
+  background: linear-gradient(#18233f , #fff 100%);
+}
+.form__tittle{
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 20px ;
+  color: #4488ee;
+}
+.form__container{
+  width: 90%;
+  background-color: #989eae;
+  margin: auto;
+  border-radius: 25px;
+  padding: 20px;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.form__rows{
+  display: flex ;
+  flex-direction: column;
+  width: 80%;
+  gap: 15px;
+}
+input, textarea, select{
+  text-align: center;
+}
+.legend{
+  font-size: 20px;
+  text-align: center;
+}
+.fieldset{
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  border: 2px solid rgb(104, 101, 101);
+
+}
+.fieldset__checkbox .fieldset__rows{
+  display: flex;
+  justify-content: space-between;
+}
+.fieldset__radio .fieldset__rows{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+}
+.fieldset__radio .fieldset__rows label{
+  margin: auto;
+}
+.fieldset__radio {
+  gap: 10px; 
+}
+.form__label--select{
+  text-align: center;
+}
+/*
+select{
+  width: 80%;
+}*/
+/* ---- FORM SECTION END ----*/
+/* ---- FORM SECTION QUERIES----*/

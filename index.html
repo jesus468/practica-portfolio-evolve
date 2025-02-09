@@ -128,25 +128,94 @@
         </div>
       </div>
     </section>
+
     <section class="section__form-wrapper">
+      <h2 class="form__tittle">Formulario de contacto</h2>
       <div class="form__container">
         <form class="form" action="">
-          <label for=""></label>
-          <input type="text" />
-          <label for=""></label>
-          <input type="text" />
-          <label for=""></label>
-          <input type="text" />
-          <label for=""></label>
-          <input type="text" />
-          <label for=""></label>
-          <input type="text" />
-          <label for=""></label>
-          <input type="text" />
-          <label for=""></label>
-          <input type="text" />
-          <label for=""></label>
-          <input type="text" />
+          <div class="form__rows">
+            <label for="nombre"> Nombre </label>
+            <input type="text" name="nombre" placeholder="Primer nombre" />
+          </div>
+          <div class="form__rows">
+            <label for="apellido"> Apellido</label>
+            <input type="text" name="apellido" placeholder="Primer nombre" />
+          </div>
+          <div class="form__rows">
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" placeholder="Edad" />
+          </div>
+          <div class="form__rows">
+            <label for="fecha">Dia de hoy</label>
+            <input type="date" name="fecha" />
+          </div>
+          <div class="form__rows">
+            <label for="correo">Email</label>
+            <input type="email" name="correo" placeholder="Email" />
+          </div>
+          <div class="form__rows">
+            <label for="archivo">Sube una imagen</label>
+            <input type="file" name="archivo" placeholder="" />
+          </div>
+          <div class="form__rows">
+            <label for="mensaje">Envíanos un mensaje</label>
+            <textarea
+              name="mensaje"
+              placeholder="Example text"
+              rows="7"
+            ></textarea>
+          </div>
+          <div class="form__rows form__rows--checkbox">
+            <fieldset class="fieldset fieldset__checkbox">
+              <legend class="legend">
+                Selecciona la tecnología de tu interes
+              </legend>
+              <div class="fieldset__rows">
+                <label for="html">HTML</label>
+                <input type="checkbox" name="html" />
+              </div>
+              <div class="fieldset__rows">
+                <label for="css">CSS</label>
+                <input type="checkbox" name="css" />
+              </div>
+              <div class="fieldset__rows">
+                <label for="js">JavaScript</label>
+                <input type="checkbox" name="js" />
+              </div>
+            </fieldset>
+          </div>
+          <div class="form__rows form__rows--radio">
+            <fieldset class="fieldset fieldset__radio">
+              <legend class="legend">¿Cual es tu rol?</legend>
+              <div class="fieldset__rows">
+                <input type="radio" name="radios" /><label for=""
+                  >Empleador</label
+                >
+              </div>
+              <div class="fieldset__rows">
+                <input type="radio" name="radios" /><label for=""
+                  >Programador</label
+                >
+              </div>
+              <div class="fieldset__rows">
+                <input type="radio" name="radios" /><label for=""
+                  >Usuario</label
+                >
+              </div>
+            </fieldset>
+          </div>
+          <div class="form__rows">
+            <label for="coches" class="form__label--select">Elije un rango de experiencia (años)</label>
+            <select name="coches" id="">
+              <option value="">selecciona</option>
+              <option value="">menor que 1</option>
+              <option value="">1 - 5</option>
+              <option value="">Mayor que 5</option>
+            </select>
+          </div>
+          <div class="form__rows">
+            <input type="button" name="send" value="Enviar" />
+          </div>
         </form>
       </div>
     </section>
